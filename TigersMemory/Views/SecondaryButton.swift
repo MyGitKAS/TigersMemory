@@ -1,0 +1,17 @@
+
+import UIKit
+
+class SecondaryButton: UIButton {
+    
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        setBackgroundImage(UIImage(named: "SecondaryButton"), for: .normal)
+        titleLabel?.font = UIFont(name: "CHOWFUN", size: 27)
+        setTitleColor(UIColor(red: 175 / 255, green: 33 / 255, blue: 37 / 255, alpha: 1), for: .normal)
+        menuShadow()
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+}

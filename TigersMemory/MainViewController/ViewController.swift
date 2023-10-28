@@ -1,9 +1,4 @@
-//
-//  ViewController.swift
-//  TigersMemory
-//
-//  Created by Алексей Кухленков on 26.10.23.
-//
+
 import SnapKit
 import UIKit
 
@@ -32,11 +27,10 @@ class ViewController: BaseViewController {
     }
     
     func openNewViewControllerAfterDelay() {
-        DispatchQueue.main.asyncAfter(deadline: .now() + 5) {
-            let vc = MenuViewController()
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+            let vc = MainNavigationViewController()
             vc.modalPresentationStyle = .fullScreen
-            self.present(vc, animated: true)
-            
+            self.present(vc, animated: false)
         }
     }
 }

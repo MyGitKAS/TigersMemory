@@ -14,13 +14,18 @@
 		1FA3B3F72AEAB5A9006CB5BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FA3B3F62AEAB5A9006CB5BA /* Assets.xcassets */; };
 		1FA3B3FA2AEAB5A9006CB5BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FA3B3F82AEAB5A9006CB5BA /* LaunchScreen.storyboard */; };
 		1FA3B4032AEAB91A006CB5BA /* MainBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA3B4022AEAB919006CB5BA /* MainBackground.swift */; };
-		1FA3B4082AEAC037006CB5BA /* UIViewController + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA3B4072AEAC037006CB5BA /* UIViewController + Extensions.swift */; };
 		1FA3B40B2AEAC49E006CB5BA /* Logo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA3B40A2AEAC49E006CB5BA /* Logo.swift */; };
 		1FA3B40E2AEAC7C3006CB5BA /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA3B40D2AEAC7C3006CB5BA /* BaseViewController.swift */; };
 		1FA3B4112AEAC8E6006CB5BA /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 1FA3B4102AEAC8E6006CB5BA /* SnapKit */; };
-		1FA3B4172AEAF217006CB5BA /* MainTiger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA3B4162AEAF217006CB5BA /* MainTiger.swift */; };
 		1FB89A392AEBD6E000204E3E /* CustomActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB89A382AEBD6E000204E3E /* CustomActivityIndicatorView.swift */; };
 		1FB89A3C2AEBE23F00204E3E /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB89A3B2AEBE23E00204E3E /* MenuViewController.swift */; };
+		1FB89A3F2AEC583800204E3E /* CHOWFUN.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1FB89A3E2AEC583800204E3E /* CHOWFUN.TTF */; };
+		1FB89A412AECF97500204E3E /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB89A402AECF97500204E3E /* PrimaryButton.swift */; };
+		1FB89A432AED0AB800204E3E /* UIButton + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB89A422AED0AB800204E3E /* UIButton + Extensions.swift */; };
+		1FB89A452AED0C2400204E3E /* SecondaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB89A442AED0C2400204E3E /* SecondaryButton.swift */; };
+		1FB89A482AED2E2300204E3E /* MainNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB89A472AED2E2300204E3E /* MainNavigationViewController.swift */; };
+		1FB89A4A2AED556700204E3E /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB89A492AED556700204E3E /* MainMenu.swift */; };
+		1FB89A4D2AED896C00204E3E /* RulesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB89A4C2AED896B00204E3E /* RulesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,12 +38,17 @@
 		1FA3B3F92AEAB5A9006CB5BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1FA3B3FB2AEAB5A9006CB5BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1FA3B4022AEAB919006CB5BA /* MainBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainBackground.swift; sourceTree = "<group>"; };
-		1FA3B4072AEAC037006CB5BA /* UIViewController + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + Extensions.swift"; sourceTree = "<group>"; };
 		1FA3B40A2AEAC49E006CB5BA /* Logo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logo.swift; sourceTree = "<group>"; };
 		1FA3B40D2AEAC7C3006CB5BA /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
-		1FA3B4162AEAF217006CB5BA /* MainTiger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTiger.swift; sourceTree = "<group>"; };
 		1FB89A382AEBD6E000204E3E /* CustomActivityIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomActivityIndicatorView.swift; sourceTree = "<group>"; };
 		1FB89A3B2AEBE23E00204E3E /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		1FB89A3E2AEC583800204E3E /* CHOWFUN.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = CHOWFUN.TTF; sourceTree = "<group>"; };
+		1FB89A402AECF97500204E3E /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		1FB89A422AED0AB800204E3E /* UIButton + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton + Extensions.swift"; sourceTree = "<group>"; };
+		1FB89A442AED0C2400204E3E /* SecondaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryButton.swift; sourceTree = "<group>"; };
+		1FB89A472AED2E2300204E3E /* MainNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationViewController.swift; sourceTree = "<group>"; };
+		1FB89A492AED556700204E3E /* MainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
+		1FB89A4C2AED896B00204E3E /* RulesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +82,8 @@
 		1FA3B3EC2AEAB5A3006CB5BA /* TigersMemory */ = {
 			isa = PBXGroup;
 			children = (
+				1FB89A4B2AED88E600204E3E /* RulesViewController */,
+				1FB89A462AED2DDD00204E3E /* MainNavigationViewController */,
 				1FB89A3A2AEBE22700204E3E /* MenuViewController */,
 				1FA3B40C2AEAC7A8006CB5BA /* BaseViewController */,
 				1FA3B4092AEAC476006CB5BA /* Views */,
@@ -79,6 +91,7 @@
 				1FA3B4052AEABF50006CB5BA /* Application */,
 				1FA3B4012AEAB699006CB5BA /* Resources */,
 				1FA3B4042AEABED8006CB5BA /* Extensions */,
+				1FB89A3D2AEC582100204E3E /* Fonts */,
 			);
 			path = TigersMemory;
 			sourceTree = "<group>";
@@ -96,7 +109,7 @@
 		1FA3B4042AEABED8006CB5BA /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				1FA3B4072AEAC037006CB5BA /* UIViewController + Extensions.swift */,
+				1FB89A422AED0AB800204E3E /* UIButton + Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -124,8 +137,10 @@
 			children = (
 				1FA3B4022AEAB919006CB5BA /* MainBackground.swift */,
 				1FA3B40A2AEAC49E006CB5BA /* Logo.swift */,
-				1FA3B4162AEAF217006CB5BA /* MainTiger.swift */,
 				1FB89A382AEBD6E000204E3E /* CustomActivityIndicatorView.swift */,
+				1FB89A402AECF97500204E3E /* PrimaryButton.swift */,
+				1FB89A442AED0C2400204E3E /* SecondaryButton.swift */,
+				1FB89A492AED556700204E3E /* MainMenu.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -144,6 +159,30 @@
 				1FB89A3B2AEBE23E00204E3E /* MenuViewController.swift */,
 			);
 			path = MenuViewController;
+			sourceTree = "<group>";
+		};
+		1FB89A3D2AEC582100204E3E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				1FB89A3E2AEC583800204E3E /* CHOWFUN.TTF */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		1FB89A462AED2DDD00204E3E /* MainNavigationViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1FB89A472AED2E2300204E3E /* MainNavigationViewController.swift */,
+			);
+			path = MainNavigationViewController;
+			sourceTree = "<group>";
+		};
+		1FB89A4B2AED88E600204E3E /* RulesViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1FB89A4C2AED896B00204E3E /* RulesViewController.swift */,
+			);
+			path = RulesViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FA3B3FA2AEAB5A9006CB5BA /* LaunchScreen.storyboard in Resources */,
+				1FB89A3F2AEC583800204E3E /* CHOWFUN.TTF in Resources */,
 				1FA3B3F72AEAB5A9006CB5BA /* Assets.xcassets in Resources */,
 				1FA3B3F52AEAB5A3006CB5BA /* Main.storyboard in Resources */,
 			);
@@ -223,15 +263,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FA3B4082AEAC037006CB5BA /* UIViewController + Extensions.swift in Sources */,
+				1FB89A412AECF97500204E3E /* PrimaryButton.swift in Sources */,
 				1FB89A3C2AEBE23F00204E3E /* MenuViewController.swift in Sources */,
 				1FA3B4032AEAB91A006CB5BA /* MainBackground.swift in Sources */,
-				1FA3B4172AEAF217006CB5BA /* MainTiger.swift in Sources */,
+				1FB89A452AED0C2400204E3E /* SecondaryButton.swift in Sources */,
 				1FB89A392AEBD6E000204E3E /* CustomActivityIndicatorView.swift in Sources */,
+				1FB89A482AED2E2300204E3E /* MainNavigationViewController.swift in Sources */,
 				1FA3B3F22AEAB5A3006CB5BA /* ViewController.swift in Sources */,
+				1FB89A432AED0AB800204E3E /* UIButton + Extensions.swift in Sources */,
+				1FB89A4A2AED556700204E3E /* MainMenu.swift in Sources */,
 				1FA3B3EE2AEAB5A3006CB5BA /* AppDelegate.swift in Sources */,
 				1FA3B40B2AEAC49E006CB5BA /* Logo.swift in Sources */,
 				1FA3B40E2AEAC7C3006CB5BA /* BaseViewController.swift in Sources */,
+				1FB89A4D2AED896C00204E3E /* RulesViewController.swift in Sources */,
 				1FA3B3F02AEAB5A3006CB5BA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
