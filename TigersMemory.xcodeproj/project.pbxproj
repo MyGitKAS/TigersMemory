@@ -26,6 +26,10 @@
 		1FB89A482AED2E2300204E3E /* MainNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB89A472AED2E2300204E3E /* MainNavigationViewController.swift */; };
 		1FB89A4A2AED556700204E3E /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB89A492AED556700204E3E /* MainMenu.swift */; };
 		1FB89A4D2AED896C00204E3E /* RulesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB89A4C2AED896B00204E3E /* RulesViewController.swift */; };
+		1FB89A4F2AED991B00204E3E /* RulesStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB89A4E2AED991B00204E3E /* RulesStackView.swift */; };
+		1FB89A542AEEFDB900204E3E /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB89A532AEEFDB800204E3E /* ShopViewController.swift */; };
+		1FB89A562AEEFE9B00204E3E /* ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB89A552AEEFE9B00204E3E /* ShopView.swift */; };
+		1FB89A582AEEFFFC00204E3E /* CoinCountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB89A572AEEFFFC00204E3E /* CoinCountView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +53,10 @@
 		1FB89A472AED2E2300204E3E /* MainNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationViewController.swift; sourceTree = "<group>"; };
 		1FB89A492AED556700204E3E /* MainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
 		1FB89A4C2AED896B00204E3E /* RulesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesViewController.swift; sourceTree = "<group>"; };
+		1FB89A4E2AED991B00204E3E /* RulesStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesStackView.swift; sourceTree = "<group>"; };
+		1FB89A532AEEFDB800204E3E /* ShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopViewController.swift; sourceTree = "<group>"; };
+		1FB89A552AEEFE9B00204E3E /* ShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopView.swift; sourceTree = "<group>"; };
+		1FB89A572AEEFFFC00204E3E /* CoinCountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinCountView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +90,7 @@
 		1FA3B3EC2AEAB5A3006CB5BA /* TigersMemory */ = {
 			isa = PBXGroup;
 			children = (
+				1FB89A522AEEFD9A00204E3E /* ShopViewController */,
 				1FB89A4B2AED88E600204E3E /* RulesViewController */,
 				1FB89A462AED2DDD00204E3E /* MainNavigationViewController */,
 				1FB89A3A2AEBE22700204E3E /* MenuViewController */,
@@ -140,7 +149,7 @@
 				1FB89A382AEBD6E000204E3E /* CustomActivityIndicatorView.swift */,
 				1FB89A402AECF97500204E3E /* PrimaryButton.swift */,
 				1FB89A442AED0C2400204E3E /* SecondaryButton.swift */,
-				1FB89A492AED556700204E3E /* MainMenu.swift */,
+				1FB89A572AEEFFFC00204E3E /* CoinCountView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -156,6 +165,7 @@
 		1FB89A3A2AEBE22700204E3E /* MenuViewController */ = {
 			isa = PBXGroup;
 			children = (
+				1FB89A492AED556700204E3E /* MainMenu.swift */,
 				1FB89A3B2AEBE23E00204E3E /* MenuViewController.swift */,
 			);
 			path = MenuViewController;
@@ -181,8 +191,18 @@
 			isa = PBXGroup;
 			children = (
 				1FB89A4C2AED896B00204E3E /* RulesViewController.swift */,
+				1FB89A4E2AED991B00204E3E /* RulesStackView.swift */,
 			);
 			path = RulesViewController;
+			sourceTree = "<group>";
+		};
+		1FB89A522AEEFD9A00204E3E /* ShopViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1FB89A532AEEFDB800204E3E /* ShopViewController.swift */,
+				1FB89A552AEEFE9B00204E3E /* ShopView.swift */,
+			);
+			path = ShopViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,11 +289,15 @@
 				1FB89A452AED0C2400204E3E /* SecondaryButton.swift in Sources */,
 				1FB89A392AEBD6E000204E3E /* CustomActivityIndicatorView.swift in Sources */,
 				1FB89A482AED2E2300204E3E /* MainNavigationViewController.swift in Sources */,
+				1FB89A562AEEFE9B00204E3E /* ShopView.swift in Sources */,
 				1FA3B3F22AEAB5A3006CB5BA /* ViewController.swift in Sources */,
 				1FB89A432AED0AB800204E3E /* UIButton + Extensions.swift in Sources */,
 				1FB89A4A2AED556700204E3E /* MainMenu.swift in Sources */,
+				1FB89A4F2AED991B00204E3E /* RulesStackView.swift in Sources */,
 				1FA3B3EE2AEAB5A3006CB5BA /* AppDelegate.swift in Sources */,
 				1FA3B40B2AEAC49E006CB5BA /* Logo.swift in Sources */,
+				1FB89A582AEEFFFC00204E3E /* CoinCountView.swift in Sources */,
+				1FB89A542AEEFDB900204E3E /* ShopViewController.swift in Sources */,
 				1FA3B40E2AEAC7C3006CB5BA /* BaseViewController.swift in Sources */,
 				1FB89A4D2AED896C00204E3E /* RulesViewController.swift in Sources */,
 				1FA3B3F02AEAB5A3006CB5BA /* SceneDelegate.swift in Sources */,

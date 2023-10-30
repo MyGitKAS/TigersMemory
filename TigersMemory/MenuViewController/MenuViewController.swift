@@ -19,12 +19,17 @@ class MenuViewController: BaseViewController {
         view.addSubview(mainMenu)
         view.addSubview(coin)
         setConstraints()
+        mainMenu.callbackButtonTapped = { [weak self] tag in
+            switch tag {
+            case 2: self?.navigationController?.pushViewController(RulesViewController(), animated: true)
+            case 1: self?.navigationController?.pushViewController(ShopViewController(), animated: true)
+           
+            default:
+                return
+            }
+        }
     }
     
-    @objc func primaryButtonTapped() {
-        let vc = BaseViewController()
-        navigationController?.pushViewController(vc, animated: true)
-    }
 }
 
 extension MenuViewController {

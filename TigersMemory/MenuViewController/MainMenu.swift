@@ -19,7 +19,7 @@ class MainMenu: UIStackView {
     private let secondStack = UIStackView()
     private var buttonsArray = [UIButton]()
     
-    private var callbackbuttonTapped: ((Int) -> Void)?
+    var callbackButtonTapped: ((Int) -> ())?
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -57,8 +57,8 @@ class MainMenu: UIStackView {
         }
     }
     @objc func buttonTapped(_ sender: UIButton) {
-        callbackbuttonTapped?(sender.tag)
-        print(sender.tag)
+        callbackButtonTapped?(sender.tag)
+    
     }
     
 }

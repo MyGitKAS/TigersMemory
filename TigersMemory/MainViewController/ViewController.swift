@@ -2,7 +2,7 @@
 import SnapKit
 import UIKit
 
-class ViewController: BaseViewController {
+class ViewController: UIViewController {
     
     private var activityIndicator =  CustomActivityIndicatorView(style: .large)
     private let mainTiger = UIImageView(image: UIImage(named: "MainTiger.png"))
@@ -11,6 +11,7 @@ class ViewController: BaseViewController {
    
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.addSubview(MainBackground(frame: UIScreen.main.bounds))
         view.addSubview(mainTiger)
         view.addSubview(textLogo)
         view.addSubview(bottomGroup)
@@ -30,7 +31,7 @@ class ViewController: BaseViewController {
         DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
             let vc = MainNavigationViewController()
             vc.modalPresentationStyle = .fullScreen
-            self.present(vc, animated: false)
+            self.present(vc, animated: true)
         }
     }
 }
