@@ -10,4 +10,10 @@ extension UIButton {
         titleLabel!.layer.masksToBounds = false
     }
     
+    func changeButtonFont(title: String, size: CGFloat) {
+        self.titleLabel?.font = UIFont(name: "CHOWFUN", size: size)
+        setTitle(title, for: .normal)
+        
+    }
+    
 }

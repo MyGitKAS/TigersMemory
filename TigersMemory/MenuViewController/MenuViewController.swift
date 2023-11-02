@@ -23,6 +23,8 @@ class MenuViewController: BaseViewController {
             switch tag {
             case 2: self?.navigationController?.pushViewController(RulesViewController(), animated: true)
             case 1: self?.navigationController?.pushViewController(ShopViewController(), animated: true)
+            case 3: self?.navigationController?.pushViewController(ProgressViewController(), animated: true)
+              
            
             default:
                 return

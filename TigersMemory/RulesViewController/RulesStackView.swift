@@ -11,7 +11,6 @@ class RulesStackView: UIStackView {
         label.font = UIFont(name: "CHOWFUN", size: 40)
         label.textColor = .white
         label.textAlignment = .center
-        //UIColor(red: 175 / 255, green: 33 / 255, blue: 37 / 255, alpha: 1)
         return label
     }()
     private let textView = UIView()

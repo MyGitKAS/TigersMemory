@@ -14,7 +14,6 @@ class RulesViewController: BaseViewController {
         
         setConstraints()
     }
-    
 }
 
 extension RulesViewController {
