@@ -22,10 +22,8 @@ class ShopCardDragon: UIStackView {
         super.init(frame: frame)
         coinView.contentMode = .right
         hStack.axis = .horizontal
-       // backLabelView.contentMode = .left
         axis = .vertical
         backLabelView.addSubview(label)
-       // backLabelView.contentMode = .left
         hStack.addArrangedSubview(coinView)
         hStack.addArrangedSubview(backLabelView)
         hStack.contentMode = .center

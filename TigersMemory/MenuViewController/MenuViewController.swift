@@ -21,17 +21,15 @@ class MenuViewController: BaseViewController {
         setConstraints()
         mainMenu.callbackButtonTapped = { [weak self] tag in
             switch tag {
-            case 2: self?.navigationController?.pushViewController(RulesViewController(), animated: true)
+            case 0: self?.navigationController?.pushViewController(LevelsViewController(), animated: true)
             case 1: self?.navigationController?.pushViewController(ShopViewController(), animated: true)
+            case 2: self?.navigationController?.pushViewController(RulesViewController(), animated: true)
             case 3: self?.navigationController?.pushViewController(ProgressViewController(), animated: true)
-              
-           
             default:
                 return
             }
         }
     }
-    
 }
 
 extension MenuViewController {

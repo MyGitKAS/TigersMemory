@@ -4,19 +4,23 @@ import SnapKit
 
 class ProgressBoxView: UIView {
     
-    let goldenImage = UIImage(named:"ProgressGolden")
-    let proImage = UIImage(named: "ProgressProBW")
-    let guruImage = UIImage(named: "ProgressGuruBW")
+    private let goldenImage = UIImage(named:"ProgressGolden")
+    private let proImage = UIImage(named: "ProgressProBW")
+    private let guruImage = UIImage(named: "ProgressGuruBW")
     
-    let hStack = UIStackView()
-    let vStack = UIStackView()
+    private let progressLabel = UILabel()
+    
+    private let hStack = UIStackView()
+    private let vStack = UIStackView()
     
     
     override init(frame: CGRect) {
         super.init(frame: frame)
-       let goldenBox = ProgressBoxFactory.createBox(with: goldenImage!, mainText: "Golde", secondText: "ksmowkepw")
-        let proBox = ProgressBoxFactory.createBox(with: proImage!, mainText: "Pro", secondText: "ksmowkepw ")
-       let guruBox = ProgressBoxFactory.createBox(with: guruImage!, mainText: "Guru", secondText: "ksmowkepw")
+       let goldenBox = ProgressBoxFactory.createBox(with: goldenImage!, mainText: "Golden", secondText: "Make One Payment")
+        let proBox = ProgressBoxFactory.createBox(with: proImage!, mainText: "Pro", secondText: "Earn 200 Points")
+       let guruBox = ProgressBoxFactory.createBox(with: guruImage!, mainText: "Guru", secondText: "Complete All Levels")
+        
+        progressLabel.theTitle(text: "Progress")
         
         hStack.addArrangedSubview(goldenBox)
         hStack.addArrangedSubview(proBox)
@@ -24,6 +28,7 @@ class ProgressBoxView: UIView {
 
         vStack.axis = .vertical
         vStack.spacing = 20
+        vStack.addArrangedSubview(progressLabel)
         vStack.addArrangedSubview(hStack)
         vStack.addArrangedSubview(guruBox)
         
