@@ -10,10 +10,11 @@
 		1F654A892AF4114000A058B4 /* ProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F654A882AF4114000A058B4 /* ProgressViewController.swift */; };
 		1F654A8B2AF4157400A058B4 /* ProgressBoxFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F654A8A2AF4157400A058B4 /* ProgressBoxFactory.swift */; };
 		1F654A8D2AF439F200A058B4 /* ProgressBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F654A8C2AF439F200A058B4 /* ProgressBoxView.swift */; };
-		1F654A902AF4DD9E00A058B4 /* LevelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F654A8F2AF4DD9E00A058B4 /* LevelsViewController.swift */; };
-		1F654A922AF4E6D800A058B4 /* LevelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F654A912AF4E6D800A058B4 /* LevelsView.swift */; };
-		1F654A942AF4E76700A058B4 /* LevesBoxCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F654A932AF4E76700A058B4 /* LevesBoxCell.swift */; };
-		1F654A962AF4E78500A058B4 /* LevelBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F654A952AF4E78500A058B4 /* LevelBox.swift */; };
+		1F654A922AF4E6D800A058B4 /* LevelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F654A912AF4E6D800A058B4 /* LevelsViewController.swift */; };
+		1F654A962AF4E78500A058B4 /* LevelsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F654A952AF4E78500A058B4 /* LevelsViewCell.swift */; };
+		1F654A982AF566AD00A058B4 /* UIColor + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F654A972AF566AC00A058B4 /* UIColor + Extensions.swift */; };
+		1F6849B52B03E1E3001BD0A0 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6849B42B03E1E2001BD0A0 /* GameViewController.swift */; };
+		1F6849B72B03E290001BD0A0 /* GameCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6849B62B03E290001BD0A0 /* GameCard.swift */; };
 		1F8B9F092AF182C5003FEF1D /* UIImage + Exstensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8B9F082AF182C5003FEF1D /* UIImage + Exstensions.swift */; };
 		1F8B9F0B2AF2CD7F003FEF1D /* UILabel + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8B9F0A2AF2CD7F003FEF1D /* UILabel + Extensions.swift */; };
 		1FA3B3EE2AEAB5A3006CB5BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA3B3ED2AEAB5A3006CB5BA /* AppDelegate.swift */; };
@@ -47,10 +48,11 @@
 		1F654A882AF4114000A058B4 /* ProgressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewController.swift; sourceTree = "<group>"; };
 		1F654A8A2AF4157400A058B4 /* ProgressBoxFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBoxFactory.swift; sourceTree = "<group>"; };
 		1F654A8C2AF439F200A058B4 /* ProgressBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBoxView.swift; sourceTree = "<group>"; };
-		1F654A8F2AF4DD9E00A058B4 /* LevelsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelsViewController.swift; sourceTree = "<group>"; };
-		1F654A912AF4E6D800A058B4 /* LevelsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelsView.swift; sourceTree = "<group>"; };
-		1F654A932AF4E76700A058B4 /* LevesBoxCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevesBoxCell.swift; sourceTree = "<group>"; };
-		1F654A952AF4E78500A058B4 /* LevelBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelBox.swift; sourceTree = "<group>"; };
+		1F654A912AF4E6D800A058B4 /* LevelsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelsViewController.swift; sourceTree = "<group>"; };
+		1F654A952AF4E78500A058B4 /* LevelsViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelsViewCell.swift; sourceTree = "<group>"; };
+		1F654A972AF566AC00A058B4 /* UIColor + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + Extensions.swift"; sourceTree = "<group>"; };
+		1F6849B42B03E1E2001BD0A0 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		1F6849B62B03E290001BD0A0 /* GameCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCard.swift; sourceTree = "<group>"; };
 		1F8B9F082AF182C5003FEF1D /* UIImage + Exstensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage + Exstensions.swift"; sourceTree = "<group>"; };
 		1F8B9F0A2AF2CD7F003FEF1D /* UILabel + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel + Extensions.swift"; sourceTree = "<group>"; };
 		1FA3B3EA2AEAB5A3006CB5BA /* TigersMemory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TigersMemory.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -106,12 +108,19 @@
 		1F654A8E2AF4DD7400A058B4 /* LevelsViewController */ = {
 			isa = PBXGroup;
 			children = (
-				1F654A912AF4E6D800A058B4 /* LevelsView.swift */,
-				1F654A8F2AF4DD9E00A058B4 /* LevelsViewController.swift */,
-				1F654A932AF4E76700A058B4 /* LevesBoxCell.swift */,
-				1F654A952AF4E78500A058B4 /* LevelBox.swift */,
+				1F654A912AF4E6D800A058B4 /* LevelsViewController.swift */,
+				1F654A952AF4E78500A058B4 /* LevelsViewCell.swift */,
 			);
 			path = LevelsViewController;
+			sourceTree = "<group>";
+		};
+		1F6849B32B03E1CD001BD0A0 /* GameViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1F6849B42B03E1E2001BD0A0 /* GameViewController.swift */,
+				1F6849B62B03E290001BD0A0 /* GameCard.swift */,
+			);
+			path = GameViewController;
 			sourceTree = "<group>";
 		};
 		1FA3B3E12AEAB5A3006CB5BA = {
@@ -133,6 +142,7 @@
 		1FA3B3EC2AEAB5A3006CB5BA /* TigersMemory */ = {
 			isa = PBXGroup;
 			children = (
+				1F6849B32B03E1CD001BD0A0 /* GameViewController */,
 				1F654A8E2AF4DD7400A058B4 /* LevelsViewController */,
 				1F654A872AF410FF00A058B4 /* ProgressViewController */,
 				1FB89A522AEEFD9A00204E3E /* ShopViewController */,
@@ -164,6 +174,7 @@
 			isa = PBXGroup;
 			children = (
 				1FB89A422AED0AB800204E3E /* UIButton + Extensions.swift */,
+				1F654A972AF566AC00A058B4 /* UIColor + Extensions.swift */,
 				1F8B9F082AF182C5003FEF1D /* UIImage + Exstensions.swift */,
 				1F8B9F0A2AF2CD7F003FEF1D /* UILabel + Extensions.swift */,
 			);
@@ -336,29 +347,30 @@
 				1FB89A412AECF97500204E3E /* PrimaryButton.swift in Sources */,
 				1FB89A3C2AEBE23F00204E3E /* MenuViewController.swift in Sources */,
 				1FA3B4032AEAB91A006CB5BA /* MainBackground.swift in Sources */,
-				1F654A922AF4E6D800A058B4 /* LevelsView.swift in Sources */,
+				1F654A922AF4E6D800A058B4 /* LevelsViewController.swift in Sources */,
 				1FB89A452AED0C2400204E3E /* SecondaryButton.swift in Sources */,
 				1FB89A392AEBD6E000204E3E /* CustomActivityIndicatorView.swift in Sources */,
 				1FB89A482AED2E2300204E3E /* MainNavigationViewController.swift in Sources */,
+				1F6849B52B03E1E3001BD0A0 /* GameViewController.swift in Sources */,
 				1FB89A562AEEFE9B00204E3E /* ShopView.swift in Sources */,
 				1FA3B3F22AEAB5A3006CB5BA /* ViewController.swift in Sources */,
 				1FB89A432AED0AB800204E3E /* UIButton + Extensions.swift in Sources */,
 				1F654A8B2AF4157400A058B4 /* ProgressBoxFactory.swift in Sources */,
 				1FB89A4A2AED556700204E3E /* MainMenu.swift in Sources */,
-				1F654A962AF4E78500A058B4 /* LevelBox.swift in Sources */,
+				1F654A962AF4E78500A058B4 /* LevelsViewCell.swift in Sources */,
 				1FB89A4F2AED991B00204E3E /* RulesStackView.swift in Sources */,
 				1FA3B3EE2AEAB5A3006CB5BA /* AppDelegate.swift in Sources */,
 				1F8B9F0B2AF2CD7F003FEF1D /* UILabel + Extensions.swift in Sources */,
-				1F654A902AF4DD9E00A058B4 /* LevelsViewController.swift in Sources */,
+				1F654A982AF566AD00A058B4 /* UIColor + Extensions.swift in Sources */,
 				1F8B9F092AF182C5003FEF1D /* UIImage + Exstensions.swift in Sources */,
 				1FA3B40B2AEAC49E006CB5BA /* Logo.swift in Sources */,
 				1FB89A582AEEFFFC00204E3E /* CoinCountView.swift in Sources */,
 				1FB89A5C2AEFB8CE00204E3E /* ShopCardDragon.swift in Sources */,
 				1F654A8D2AF439F200A058B4 /* ProgressBoxView.swift in Sources */,
 				1FB89A542AEEFDB900204E3E /* ShopViewController.swift in Sources */,
+				1F6849B72B03E290001BD0A0 /* GameCard.swift in Sources */,
 				1FA3B40E2AEAC7C3006CB5BA /* BaseViewController.swift in Sources */,
 				1FB89A4D2AED896C00204E3E /* RulesViewController.swift in Sources */,
-				1F654A942AF4E76700A058B4 /* LevesBoxCell.swift in Sources */,
 				1FA3B3F02AEAB5A3006CB5BA /* SceneDelegate.swift in Sources */,
 				1FB89A5A2AEFB80A00204E3E /* ShopCardCoin.swift in Sources */,
 			);

@@ -1,6 +1,7 @@
 
 import UIKit
 import SnapKit
+
 class ProgressViewController: BaseViewController {
 
     let progressBoxView = ProgressBoxView()

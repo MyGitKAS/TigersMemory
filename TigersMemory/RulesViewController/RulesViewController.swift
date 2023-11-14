@@ -6,19 +6,19 @@ class RulesViewController: BaseViewController {
 
     private let rulesView = RulesStackView()
     private let flag = UIImageView(image: UIImage(named: "Flag.png"))
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         view.addSubview(rulesView)
         view.addSubview(flag)
-        
+
         setConstraints()
     }
 }
 
 extension RulesViewController {
     private func setConstraints() {
-     
+
         rulesView.snp.makeConstraints { make in
             make.centerY.equalToSuperview().offset(-35)
             make.leading.equalToSuperview().offset(20)
@@ -30,3 +30,5 @@ extension RulesViewController {
         }
     }
 }
+
+

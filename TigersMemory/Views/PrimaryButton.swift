@@ -7,7 +7,7 @@ class PrimaryButton: UIButton {
         super.init(frame: frame)
         setBackgroundImage(UIImage(named: "PrimaryButton"), for: .normal)
         changeButtonFont(title: "PLAY", size: 40)       
-        setTitleColor(UIColor(red: 228 / 255, green: 175 / 255, blue: 53 / 255, alpha: 1), for: .normal)
+        setTitleColor(.theTigerGold, for: .normal)
         menuShadow()
     }
     

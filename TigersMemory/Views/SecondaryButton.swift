@@ -7,7 +7,7 @@ class SecondaryButton: UIButton {
         super.init(frame: frame)
         setBackgroundImage(UIImage(named: "SecondaryButton"), for: .normal)
         titleLabel?.font = UIFont(name: "CHOWFUN", size: 27)
-        setTitleColor(UIColor(red: 175 / 255, green: 33 / 255, blue: 37 / 255, alpha: 1), for: .normal)
+        setTitleColor(.theTigerRed, for: .normal)
         menuShadow()
     }
     

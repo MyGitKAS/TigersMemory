@@ -19,6 +19,8 @@ class MenuViewController: BaseViewController {
         view.addSubview(mainMenu)
         view.addSubview(coin)
         setConstraints()
+     
+        
         mainMenu.callbackButtonTapped = { [weak self] tag in
             switch tag {
             case 0: self?.navigationController?.pushViewController(LevelsViewController(), animated: true)

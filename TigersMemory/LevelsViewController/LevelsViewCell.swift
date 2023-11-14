@@ -16,13 +16,20 @@ class LevelsViewCell: UICollectionViewCell {
         backgroundImageView.image = imageEmpty
         passedImageView.image = UIImage(named: "Passed")
         lockImageView.image = UIImage(named: "Lock")
+        
+        numberLevelLabel.theTitle(text: "1", size: 33, color: .theTigerRed)
      
         addSubview(backgroundImageView)
         addSubview(lockImageView)
         addSubview(passedImageView)
+        addSubview(numberLevelLabel)
+        
+        
         
         setConstraints()
-        print(self.frame)
+        
+        lockImageView.isHidden = true
+        passedImageView.isHidden = true
     }
     
     required init?(coder: NSCoder) {
@@ -43,6 +50,11 @@ extension LevelsViewCell {
         lockImageView.snp.makeConstraints { make in
             make.centerY.centerX.equalTo(self)
         }
+        
+        numberLevelLabel.snp.makeConstraints { make in
+            make.centerY.centerX.equalTo(self)
+        }
+        
         passedImageView.snp.makeConstraints { make in
             make.top.equalTo(self).offset(-4)
             make.leading.equalTo(self).offset(2)
